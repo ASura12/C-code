@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+int main(){
+int n1,n2,n3,n4;
+cout<<"Enter the dividend : ";
+cin>>n1;
+cout<<"Enter the divisor : ";
+cin>>n2;
+n4 = n1/n2;
+n3 = n1%n2;
+cout<<"The remaimder is "<<n3<<endl;
+cout<<"The quotient is "<<n4;
+return 0;
+}
